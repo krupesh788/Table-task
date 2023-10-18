@@ -1,0 +1,53 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+body{
+    background-color: blueviolet;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h2
+{
+    text-align: center;
+    color: white;
+}
+table{
+
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+tr td{
+    border: 1px solid black;    
+    text-align: left;
+    padding: 8px;
+
+    
+}
+th{
+    position: relative;
+    top:0;
+    right: 100px;
+}
+
+.a1{
+    background-color: yellow;
+}
+
+tr:nth-child(even){
+
+    background-color:blue;
+}
+
+tr:nth-child(2){
+    background-color:rgb(223, 108, 108);
+}
+
+
+
+    
+
